@@ -1,0 +1,7 @@
+# tip_calculator.py
+
+def calculate_tip(bill, percentage):
+    return bill * (percentage / 100)
+
+# Sample usage
+print("Tip amount:", calculate_tip(100, 15))
